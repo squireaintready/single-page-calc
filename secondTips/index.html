@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Samuel Jo's Calculator</title>
+</head>
+<body>
+    <div id = 'wrapper' style = 'text-align: center;'>
+    <h1 id = 'heading' style = "background-color: #c3b9de;">Mizumi Calculator By Samuel Jo</h1>
+
+    <div class = 'numberOfEmployees'>
+        <form>
+            <input type = 'text' id = 'totalCash' placeholder = "Total Cash">
+            <select id = 'defaults' >
+                <option value = 'weekday'>Weekday</option>
+                <option value = 'weekend'>Weekend</option>
+                <option value = 'manual'>Manual</option>
+            </select>
+            <button name = "submit" onclick = "clicked()" button type = 'button'>Calculate</button><br />
+            <input type = "text" id = "numBG" name = 'name4BG' placeholder = "Number of Bus Girls"></textarea>
+            <input type = "text" id = "numBB" name = 'name4BB' placeholder = "Number of Bus Boys"></textarea>
+            <input type = "text" id = "numServer" name = 'name4Server' placeholder = "Number of Servers"></textarea>
+            <br />
+        </form>
+    </div>
+
+    <div class = 'calculations'>
+        Bus Girls made: <textarea output type = "text" id = "bgCash" name = 'bgCashCalculation' placeholder = "Where the CA$H AT"></textarea>
+        Bus Boys made: <textarea output type = "text" id = "bbCash" name = 'bbCashCalculation' placeholder = "Where the CA$H AT"></textarea>
+        Servers made: <textarea output type = "text" id = "serverCash" name = 'serverCashCalculation' placeholder = "Where the CA$H AT"></textarea>
+        Modulus: <textarea output type = "text" id = "modulus" name = 'remainder' placeholder = "To Piggy, or not to Piggy"></textarea><br /><br />
+        Return to Samonim: <textarea output type = "text" id = "returnCash" name = 'totalReturnCashTo' placeholder = " HEADS UP ^^ "></textarea><br /><br />
+
+        Bus Girls Total: <textarea output type = "text" id = "totalBgCash" name = 'totalBgCashCalculation' placeholder = "The CA$H amount be"></textarea>
+        Bus Boys Total: <textarea output type = "text" id = "totalBbCash" name = 'totalBbCashCalcuation' placeholder = "The CA$H amount be"></textarea>
+        Servers Total: <textarea output type = "text" id = "totalServerCash" name = 'totalServerCashCalculation' placeholder = "The CA$H amount be"></textarea>
+        Total: <textarea output type = "text" id = "finalConfirmation" name = "lastconfirm" placeholder = "MUST MATCH ORIGINAL TOTAL"></textarea>
+    </div>
+    </div>
+    <script src = 'main.js'></script>
+</body>
+</html>

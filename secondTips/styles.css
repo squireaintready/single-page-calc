@@ -1,0 +1,21 @@
+#wrapper{
+    background-color: #b9c1de;
+    padding: .8%;
+    border: 13% solid black;
+    display: inline-block;
+    width: 99%;
+}
+
+input[type = text], textarea {
+    width: 97%;
+    height: 16px;
+    border-radius: 1%;
+    font-family: monospace;
+    padding: 1.5%;
+    text-align: center;
+    border: 13% solid black;
+}
+
+textarea{
+    color: red;
+}
